@@ -1,7 +1,7 @@
 *.*~
 *.bak
 *.old
-*.o
+*.[oa]
 *.la
 *.so
 swamp
