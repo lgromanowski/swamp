@@ -2,6 +2,8 @@
 #ifndef SWAMP_NON_PLAYER_CHARACTER_H
 #define SWAMP_NON_PLAYER_CHARACTER_H
 
+#include "character.h"
+
 /** \addtogroup character */
 /** @{ */
 
@@ -39,6 +41,7 @@ class NonPlayerCharacter : public Character
      */
     int doCommand(Command& cmd);
 
+		int writeText(const std::string& /*text*/) { return -1; }
 };
 
 /**
